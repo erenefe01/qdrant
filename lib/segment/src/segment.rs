@@ -1349,6 +1349,7 @@ mod tests {
                 VectorDataConfig {
                     size: dim,
                     distance: Distance::Dot,
+                    hnsw_config: None,
                 },
             )]),
             index: Indexes::Plain {},
@@ -1418,6 +1419,7 @@ mod tests {
                 VectorDataConfig {
                     size: dim,
                     distance: Distance::Dot,
+                    hnsw_config: None,
                 },
             )]),
             index: Indexes::Plain {},
@@ -1506,6 +1508,7 @@ mod tests {
                 VectorDataConfig {
                     size: 2,
                     distance: Distance::Dot,
+                    hnsw_config: None,
                 },
             )]),
             index: Indexes::Plain {},
@@ -1583,6 +1586,7 @@ mod tests {
                 VectorDataConfig {
                     size: 2,
                     distance: Distance::Dot,
+                    hnsw_config: None,
                 },
             )]),
             index: Indexes::Plain {},
@@ -1613,6 +1617,7 @@ mod tests {
                 VectorDataConfig {
                     size: dim,
                     distance: Distance::Dot,
+                    hnsw_config: None,
                 },
             )]),
             index: Indexes::Plain {},
